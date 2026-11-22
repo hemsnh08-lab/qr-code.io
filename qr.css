@@ -1,0 +1,66 @@
+@import url('https://googleapis.com');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  padding: 20px;
+}
+
+.qr {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 16px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.pg img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.qr h2 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 24px 0 16px;
+  padding: 0 12px;
+}
+
+.qr p {
+  color: hsl(216, 15%, 48%);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  padding: 0 16px;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+  
